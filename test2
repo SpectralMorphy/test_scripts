@@ -1,1 +1,1 @@
-Say( nil, 'yo', true )
+Say( boss, 'yo', true )
