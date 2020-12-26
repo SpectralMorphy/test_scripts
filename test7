@@ -1,0 +1,5 @@
+CustomGameEventManager:Send_ServerToAllClients( 'cl_eval', {
+    sCode = [[
+        $.Msg( dotaHud );
+    ]]
+})
