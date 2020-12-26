@@ -1,0 +1,14 @@
+if not TestPrints then
+CustomGameEventManager:Send_ServerToAllClients( 'cl_eval', {
+    sCode = [[
+        $.Msg( 'cyka' );
+    ]]
+})
+end
+
+CustomGameEventManager:Send_ServerToAllClients( 'cl_eval', {
+    sCode = [[
+        $.Msg( '-', tData.t );
+    ]],
+    t = TestPrints,
+})
