@@ -1,0 +1,10 @@
+local t = TestPrints[1]
+local n = t[4].PlayerID
+CustomGameEventManager:Send_ServerToAllClients( 'cl_eval', {
+    sCode = [[
+        $.Msg( tData.t );
+        $.Msg( tData.n );
+    ]],
+    t = t,
+    n = n,
+})
