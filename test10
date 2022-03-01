@@ -1,7 +1,0 @@
-local hPlayer = EntIndexToHScript( 2 ) 
-CustomGameEventManager:Send_ServerToAllClients( 'cl_eval', {
-    sCode = [[
-        $.Msg( tData.t );
-    ]],
-    t = { exist( hPlayer ), hPlayer and hPlayer.GetPlayerID and hPlayer:GetPlayerID() },
-})
