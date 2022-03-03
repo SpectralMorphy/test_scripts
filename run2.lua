@@ -1,0 +1,1 @@
+PlayerResource:ReplaceHeroWith(1, 'npc_dota_hero_spectre', 9000, 9000)
