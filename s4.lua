@@ -1,0 +1,1 @@
+PlayerResource:ReplaceHeroWith(8, 'npc_dota_hero_tinker', 10000, 10000)
