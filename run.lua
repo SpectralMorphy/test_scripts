@@ -1,1 +1,1 @@
-PauseGame(true)
+print(1)
